@@ -12,7 +12,7 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     {
-      path: '/',
+      path: '/' ,
       name: 'home',
       component: HomeView,
       props: true
